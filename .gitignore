@@ -1,0 +1,37 @@
+# Virtual Environment
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+pip-selfcheck.json
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Static files (if collected)
+staticfiles/
+static_root/
